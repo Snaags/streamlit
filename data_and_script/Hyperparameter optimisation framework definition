@@ -1,0 +1,30 @@
+#Hyperparameter optimisation framework
+
+#Requirements
+
+	#Dispatch n workers to train a model with a set of hyperparameters for a number of iterations t.
+
+	#Information to worker can process:
+							Hyperparameters:
+								model:
+									topology connections
+								Optimiser:
+									lr
+									reg
+									args
+							Epochs
+							Weights*
+							Data
+							ID
+
+
+	#Return information from trained model:
+					#		Hyperparameters
+					#		Model Weights
+					#		Training Loss
+					#		Training time
+					#		ID
+
+#Pack and unpack hyperparameters
+
+def
